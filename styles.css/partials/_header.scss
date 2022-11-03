@@ -1,0 +1,12 @@
+header {
+    box-shadow: 2px 2px 10px rgb(30, 30, 30);
+    nav {
+        background-color: map-get($colores, colorPrincipal);
+        div {
+            .nav-link {
+                color: map-get($colores, colorLetras);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,15 @@
+/* %flexDisCenter {
+    display: flex;
+    justify-content: center;
+} */
+/* llamo @extend %flexDisCenter; */
+
+%flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+%flexSpArnd {
+    display: flex;
+    justify-content: space-between;
+}

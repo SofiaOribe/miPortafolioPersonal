@@ -1,0 +1,11 @@
+@import "./partials/maps";
+@import "./partials/extends";
+
+@import "./partials/header";
+@import "./partials/main";
+
+
+
+body {
+    background-color: map-get($colores, colorPrincipal);
+}
